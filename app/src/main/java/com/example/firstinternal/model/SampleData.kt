@@ -22,6 +22,11 @@ object SampleData {
             "Kalaburagi: Congress President M Mallikarjun Kharge on Wednesday indicated that the party is facing funds crunch alleging that bank accounts where mon...",
             R.drawable.mathrubhumi,
             R.drawable.mdesc),
+        ChannelItemModel("Kerala Blasters",
+            "Kerala Blasters FC have lost their appeal in the Court of Arbitration for Sport (CAS) and must now pay the All India Football Federation (AIFF) Rs 4 crore for last season’s walkout against Bengaluru FC in the Indian Super League.\n" +
+                    "Blasters will have to pay the fine within two weeks, and also reimburse AIFF for the legal fees it incurred in fighting the case.",
+            R.drawable.kbfc,
+            R.drawable.kbfc_post),
     )
 
     val findDemo = listOf(
@@ -33,7 +38,9 @@ object SampleData {
     val allChannelsDemo = listOf(
         AllChannelModel(R.drawable.mumbai,"Mumbai Indians","13.9M followers"),
         AllChannelModel(R.drawable.csk,"Chennai Super Kings","11M followers"),
-        AllChannelModel(R.drawable.mohanlal,"Mohanlal","15.7M followers")
+        AllChannelModel(R.drawable.mohanlal,"Mohanlal","15.7M followers"),
+        AllChannelModel(R.drawable.kbfc,"Kerala Blasters","21.7M followers"),
+        AllChannelModel(R.drawable.isl,"Indian Super league","5.7M followers"),
     )
 
     val tabsDemo = listOf(

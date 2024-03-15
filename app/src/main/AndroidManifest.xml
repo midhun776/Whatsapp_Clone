@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FirstInternal"
         tools:targetApi="31">
         <activity
+            android:name=".ChannelActivity"
+            android:exported="false" />
+        <activity
             android:name=".AllChannelsActivity"
             android:exported="false" />
         <activity
